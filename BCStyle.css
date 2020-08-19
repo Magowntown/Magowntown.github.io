@@ -1,11 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
     color: white;
     text-align: center;
     width: 500px;
-    display: flexbox;
-    flex-direction: column;
 }
 
 h1 {
