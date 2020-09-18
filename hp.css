@@ -18,7 +18,7 @@ body, html {
 }
 
 .pimg1 {
-       background-image: url('../bootcamp-week1/assets/Desktop_logo_size.jpg');
+       background-image: url('/assets/Desktop_logo_size.jpg');
        min-height: 100%;
        background-color: cornflowerblue;
 }
