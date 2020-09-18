@@ -1,52 +1,24 @@
-
-body {
-background-image: url(/bootcamp-week1/assets/Desktop_logo_size.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-width: 100%;
-max-width: 960px;
-margin: 0 auto;
-border-color: gr
+body, html {
+       height: 100%;
+       margin: 0;
+       font-size: 16px;
+       font-family: "Lato", sans-serif;
+       font-weight: 400;
+       line-height: 1.8em;
+       color: #666;
 }
 
-nav {
-    font-weight: bold;
-    display: flex;
+.pimg1 {
+       background-image: url('../bootcamp-week1/assets/Desktop_logo_size.jpg');
+       min-height: 100%;
 }
 
-nav ul {
-    width: 100%;
-    list-style: none;
-    margin: 0;
-    padding: 0;    
+.pimg2 {
+       background-image: url('../bootcamp-week1/assets/lighthouse.jpg');
+       min-height: 100%;
 }
 
-nav ul li {
-    width: 20%;
-    float: left;
-}
-
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 500px;
-}
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-.greeting {
-
-}
-
-footer {
-    display: flex;
-    position: fixed;
-       left:0px;
-       bottom:0px;
-       height:30px;
-       width:100%;
+.pimg3 {
+       background-image: url('../bootcamp-week1/assets/pexels-jayden-burdick-3397975.jpg');
+       min-height: 100%;
 }
