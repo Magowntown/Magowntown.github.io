@@ -8,17 +8,64 @@ body, html {
        color: #666;
 }
 
+.pimg1, .pimg2, .pimg3 {
+       position: relative;
+       opacity: 0.70;
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+}
+
 .pimg1 {
        background-image: url('../bootcamp-week1/assets/Desktop_logo_size.jpg');
        min-height: 100%;
+       background-color: cornflowerblue;
 }
 
 .pimg2 {
-       background-image: url('../bootcamp-week1/assets/lighthouse.jpg');
+       background-image: url('/assets/pexels-clive-kim-4221064.jpg');
        min-height: 100%;
 }
 
 .pimg3 {
-       background-image: url('../bootcamp-week1/assets/pexels-jayden-burdick-3397975.jpg');
+       background-image: url('/assets/pexels-jayden-burdick-3397975.jpg');
        min-height: 100%;
+}
+
+.section {
+       text-align: center;
+       padding: 50px 80px;
+}
+
+.section-light {
+       background-color: #f4f4f4;
+       color: #666;
+}
+
+.section-dark {
+       background-color: #282e34;
+       color: #ddd;
+}
+
+.ptext {
+       position: absolute;
+       top: 50%;
+       width: 100%;
+       text-align: center;
+       color: black;
+       font-size: 27px;
+       letter-spacing: 8px;
+       text-transform: uppercase;
+}
+
+.ptext .border {
+       background-color: #111;
+       color: white;
+       padding: 20px;
+}
+
+.ptext .trans {
+       color: #111;
+       background-color: transparent;
 }
