@@ -8,6 +8,11 @@ body, html {
        color: #666;
 }
 
+nav {
+
+}
+
+
 .pimg1, .pimg2, .pimg3 {
        position: relative;
        opacity: 0.70;
@@ -20,7 +25,6 @@ body, html {
 .pimg1 {
        background-image: url('/assets/Desktop_logo_size.jpg');
        min-height: 100%;
-       background-color: cornflowerblue;
 }
 
 .pimg2 {
@@ -40,12 +44,13 @@ body, html {
 
 .section-light {
        background-color: #f4f4f4;
-       color: #666;
+       opacity: .5;
 }
 
 .section-dark {
        background-color: #282e34;
        color: #ddd;
+       opacity: .5;
 }
 
 .ptext {
@@ -57,7 +62,6 @@ body, html {
        font-size: 27px;
        letter-spacing: 8px;
        text-transform: uppercase;
-       opacity: .5;
 }
 
 .ptext .border {
@@ -71,6 +75,16 @@ body, html {
        background-color: transparent;
 }
 
-#welcome-sign {
+.welcome-sign {
+       position: absolute;
+       top: 50%;
+       width: 100%;
+       text-align: center;
+       color: black;
+       font-size: 27px;
+       letter-spacing: 8px;
+       text-transform: uppercase;
+       opacity: .5;
+       padding-top: 40px;
        margin-top: 20px;
 }
