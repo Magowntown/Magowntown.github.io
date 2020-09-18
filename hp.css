@@ -57,6 +57,7 @@ body, html {
        font-size: 27px;
        letter-spacing: 8px;
        text-transform: uppercase;
+       opacity: .5;
 }
 
 .ptext .border {
@@ -70,6 +71,6 @@ body, html {
        background-color: transparent;
 }
 
-.pimg1 ptext #welcome-sign {
-       top: 60%;
+#welcome-sign {
+       margin-top: 20px;
 }
