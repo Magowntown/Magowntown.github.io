@@ -9,9 +9,40 @@ body, html {
 }
 
 nav {
-
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       min-height: 8vh;
+       background-color: whitesmoke;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.navbar {
+       text-transform: uppercase;
+       letter-spacing: 5px;
+       font-size: 20px;
+}
+
+.nav-links {
+       display: flex;
+       justify-content: space-around;
+       width: 30%;
+}
+
+.navlinks a {
+       color: whitesmoke;
+       text-decoration: none;
+       letter-spacing: 3px;
+       font-size: 14px;
+}
+
+.nav-links li {
+       list-style: none;
+}
+
+.burger {
+       display: none;
+}
 
 .pimg1, .pimg2, .pimg3 {
        position: relative;
@@ -43,8 +74,7 @@ nav {
 }
 
 .section-light {
-       background-color: #f4f4f4;
-       opacity: .5;
+       background-color: rgba(248, 245, 245, 0.5)
 }
 
 .section-dark {
@@ -68,6 +98,7 @@ nav {
        background-color: #111;
        color: white;
        padding: 20px;
+       opacity: .6;
 }
 
 .ptext .trans {
@@ -85,6 +116,6 @@ nav {
        letter-spacing: 8px;
        text-transform: uppercase;
        opacity: .5;
-       padding-top: 40px;
-       margin-top: 20px;
+       padding-top: 60px;
+       margin-top: 50px;
 }
